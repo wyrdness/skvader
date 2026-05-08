@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/skvader",
     "maintainers": [
       {
@@ -16,111 +16,209 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "skvader",
-    "name": "",
-    "aliases": [],
+    "name": "Skvader",
+    "aliases": [
+      { "name": "Tetrao lepus pseudo-hybridus rarissimus", "language": "Latin (joke binomial)", "meaning": "Mock scientific name given to the taxidermy specimen" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Tall-tale taxidermy / fearsome critter",
     "tags": [
-      "folklore",
-      "mythology"
+      "swedish-folklore",
+      "taxidermy",
+      "tall-tale",
+      "hare",
+      "wood-grouse",
+      "sundsvall",
+      "hoax-tradition"
     ],
     "status": "documented",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "The skvader is a Swedish fictional taxidermy creature combining the front half of a European hare with the back, wings, and tail of a female western capercaillie (wood grouse). It originated in a tall tale by Håkan Dahlmark and was constructed by taxidermist Rudolf Granberg in 1918.",
+      "full": "The skvader is one of the best-known Swedish 'tall-tale' or composite taxidermy creatures. Its origin lies in an early-20th-century dinner story by hunter Håkan Dahlmark of Sundsvall, who claimed to have shot the animal in 1874. In 1907 his housekeeper presented him with a painting of the creature, which he later donated to a local museum. In 1918 the museum asked taxidermist Rudolf Granberg to mount an actual specimen, which combined the head, forequarters, and hindlegs of a European hare (Lepus europaeus) with the back, wings, and tail of a female western capercaillie (Tetrao urogallus). The completed mount was given the joke Latin name Tetrao lepus pseudo-hybridus rarissimus and is permanently displayed at the museum at Norra Berget in Sundsvall, Sweden. The skvader is now an unofficial symbol of Sundsvall and of the Medelpad province, and the noun 'skvader' has entered Swedish as a colloquialism for an awkward combination of contradictory things."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Swedish — a portmanteau coined for Granberg's taxidermy mount.",
+      "meaning": "Combines 'skva-' from skvattra ('to chatter' / 'to chirp') and '-der' from tjäder ('western capercaillie / wood grouse').",
+      "first_use": "1918, when Granberg constructed the original specimen."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Composite tall-tale creature",
+      "subtype": "Hare-grouse hybrid (taxidermy)",
+      "variant": "Sweden — Medelpad / Sundsvall"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "jackalope", "name": "Jackalope", "relationship": "similar", "description": "American taxidermy tall-tale: hare with antelope/deer antlers" },
+      { "id": "wolpertinger", "name": "Wolpertinger", "relationship": "similar", "description": "Bavarian composite taxidermy creature" },
+      { "id": "rasselbock", "name": "Rasselbock", "relationship": "similar", "description": "Thuringian composite hare/roe-deer creature" },
+      { "id": "fearsome-critters", "name": "Fearsome critters", "relationship": "related", "description": "American lumberjack tall-tale fauna of comparable folkloric register" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["Brown-grey hare forequarters", "Mottled brown female-capercaillie back, wings and tail"],
+      "features": [
+        { "feature": "Hare forequarters", "description": "Head, forelegs, and hindlegs of a European hare", "frequency": "always" },
+        { "feature": "Capercaillie hindquarters", "description": "Back, wings, and tail of a female western capercaillie (wood grouse)", "frequency": "always" }
+      ],
+      "morphology": "Composite taxidermy: the front half of a hare seamlessly joined to the rear half of a wood grouse. The mount is roughly the size of a hare with the wings folded."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Flight (in tall-tale form)", "description": "In the original tall tale, the skvader is said to be able to fly using its grouse wings while running on its hare's legs", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "disposition": "neutral",
+      "social_structure": "unknown",
+      "habitat_preference": ["Boreal forest of Medelpad, central Sweden (in the tall tale)"],
+      "diet": "Not specified",
+      "patterns": [
+        "Featured exclusively in storytelling and museum display rather than in active sighting tradition"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The skvader is a place-bound cultural artefact of the Medelpad province in central Sweden, with the original specimen on permanent display at the Norra Berget museum in Sundsvall.",
+      "continents": ["Europe"],
+      "countries": ["Sweden"],
+      "regions": ["Medelpad", "Sundsvall"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Norra Berget museum, Sundsvall",
+        "location": {
+          "description": "Open-air and folk-life museum at Norra Berget, Sundsvall",
+          "country": "Sweden",
+          "region": "Medelpad",
+          "coordinates": { "latitude": 62.4006, "longitude": 17.3035 }
+        },
+        "peak_period": "1918–present",
+        "notes": "Permanent home of Rudolf Granberg's original 1918 skvader mount."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1874",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Date claimed by Håkan Dahlmark in his tall tale (not a historical sighting)"
+      },
+      "peak_activity_periods": [
+        { "period": "1907", "description": "Painting of the skvader presented to Dahlmark and later donated to the museum" },
+        { "period": "1918", "description": "Original taxidermy mount constructed by Rudolf Granberg" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Swedish hunters' tall-tale tradition; part of a wider European composite-taxidermy tradition (jackalope, wolpertinger, rasselbock).",
+      "earliest_accounts": "Håkan Dahlmark's tall tale, told around the turn of the 20th century in Sundsvall.",
+      "folklore_connections": "Composite-taxidermy / 'fake fauna' tradition shared with the jackalope (USA), wolpertinger (Bavaria), and rasselbock (Thuringia)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1874", "event": "Håkan Dahlmark claims, in a tall tale, to have shot the skvader during a hunt near Sundsvall", "significance": "Origin of the story", "source": "Wikipedia, 'Skvader'" },
+      { "date": "1907", "event": "Dahlmark's housekeeper presents him with a painting of the skvader", "significance": "First visual representation of the creature", "source": "Wikipedia, 'Skvader'" },
+      { "date": "1918", "event": "Taxidermist Rudolf Granberg constructs the original skvader mount at the request of museum staff in Sundsvall", "significance": "Creation of the canonical specimen", "source": "Wikipedia, 'Skvader'" }
+    ],
+    "modern_era": "The skvader is a recognised cultural symbol of Sundsvall and the Medelpad province; it appears on the unofficial coat of arms of Medelpad and is widely reproduced in regional tourism. The Swedish word 'skvader' is now used colloquially to mean an awkward or mismatched combination."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1874 (in tall-tale form)", "latest": "1918 (specimen constructed)" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "skvader-evidence-granberg-mount",
+        "type": "taxidermy specimen",
+        "name": "Granberg skvader mount (1918)",
+        "date": "1918",
+        "description": "Composite taxidermy mount combining the head, forequarters and hindlegs of a European hare with the back, wings and tail of a female western capercaillie.",
+        "location": "Norra Berget museum, Sundsvall, Sweden",
+        "status": "verified",
+        "analysis": "Verified historical taxidermy artefact; not a biological hybrid. Catalogued under the joking binomial Tetrao lepus pseudo-hybridus rarissimus.",
+        "source": "Wikipedia, 'Skvader'"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Composite taxidermy artefact",
+        "description": "The skvader is a deliberately constructed composite taxidermy specimen, not a biological hybrid. European hare and western capercaillie are not genetically compatible.",
+        "proponents": ["Mainstream zoological consensus"],
+        "evidence_cited": ["Provenance of the 1918 Granberg mount", "Anatomical inspection of the mount"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Tall-tale origin",
+        "description": "The skvader originates in an explicit tall tale by Håkan Dahlmark and was never claimed in serious zoological literature.",
+        "proponents": ["Wikipedia / standard reference treatment"],
+        "evidence_cited": ["Documented narrative provenance", "Public museum framing as a tall tale"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Swedish hunters' tall-tale tradition (jägarhistoria)"
+      ],
+      "stories": [
+        "Dahlmark's 1874 hunt anecdote"
+      ],
+      "beliefs": "Treated openly as a humorous regional symbol rather than a believed-in cryptid; the creature's tall-tale status is part of its appeal."
     },
     "popular_culture": {
       "literature": [],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Unofficial symbol of the Medelpad province",
+        "Featured in Sundsvall and Medelpad tourism",
+        "'Skvader' used colloquially in Swedish to mean a mismatched combination"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Rudolf Granberg", "affiliation": "Independent taxidermist, Sundsvall", "contribution": "Constructed the original 1918 skvader specimen", "period": "1918" }
+    ],
+    "organizations": [
+      { "name": "Norra Berget museum, Sundsvall", "url": "https://norraberget.se", "focus": "Custodian of the original 1918 skvader mount" }
+    ],
+    "ongoing_studies": "None — the skvader is a settled cultural artefact, not an active research subject."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-skvader", "type": "website", "title": "Skvader", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Skvader", "accessed": "2026-05-07" }
+  ]
 }
